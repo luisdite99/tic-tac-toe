@@ -1,0 +1,43 @@
+html,body
+{
+	margin:0;
+	height:100%;
+	-moz-user-select:none;
+	-webkit-user-select:none;
+}
+.quad
+{
+	width:100px;
+	height:100px;
+	background:rgb(0, 0, 179); /* máximo 256 */
+	border-radius:40%; /* 50% é sempre redondo */
+	float:left;
+	font-size:75px;
+	font-family:cursive;
+	font-weight:bold;
+	color:rgb(256,256,256);
+	cursor:pointer;
+	box-shadow: 0 9px #999;
+	margin-left:10px;
+  margin-bottom:10px;
+}
+.quad:hover
+{
+	background:rgb(26, 26, 255);
+}
+.quad:active
+{
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.centro
+{
+  display:flex;
+  align-items:center; /* vertical */
+  justify-content:center; /* horizontal */
+}
+#tabuleiro
+{
+	width:330px;
+	height:330px;
+}
